@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Welcome to ChatApp</title>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mukta:wght@500&family=Oswald:wght@300&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@500&family=Mukta:wght@500&family=Oswald:wght@300&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200&family=Cormorant+SC:wght@500&family=Mukta:wght@500&family=Oswald:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+ <section class="chat-section">
+    <div class="brand">
+        <img src="logo.png" class="img">
+        <h1 id="heading">WELCOME TO CHATAPP</h1>
+    </div>
+    <div class="message-area">
+<!--      
+<div class="incoming-message">
+  <h4>Rakesh</h4>
+  <p class="para">This is Nitesh Kumar Saini</p>
+    
+  <h4>Rohit</h4>
+  <p class="para">This is Nitesh Kumar Saini</p>
+  <h4>Piyush</h4>
+  <p class="para">This is Nitesh Kumar Saini</p>
+    
+</div>
+<div class="outgoing-message">
+  <h4>Kajal</h4>
+  <p class="para">This is Nitesh</p>
+    
+</div> -->
+  </div>
+  <div class="send-container">
+    <textarea id="textarea" cols="30" rows="1" placeholder="Write a message...."></textarea>
+
+    <button type="submit" class="btn">Send</button>
+  </div>
+
+ </section>   
+ <script defer src="http://localhost:9000/socket.io/socket.io.js"></script>
+
+    <script defer src="client.js"></script>
+</body>
+
+
+</html>

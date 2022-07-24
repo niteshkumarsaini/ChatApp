@@ -1,0 +1,85 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    color: white;
+}
+body{
+background: url("bg1.jpg")no-repeat center center fixed;
+background-size: cover;
+}
+.container{
+    /* border: 1px solid white; */
+    height: 270px;
+    width: 600px;
+    position: absolute;
+    left:33%;
+    border-radius: 10px;
+    top:40%;
+
+}
+.container h1{
+    font-family: 'Mukta', sans-serif;
+    font-size:57px;
+    /* border:2px solid red; */
+    margin: auto 62px;
+    width:475px;
+    /* padding: 2px px; */
+    border-bottom: 3px solid purple;
+    
+    color: white;
+   
+
+}
+.box{
+    /* border:2px solid red; */
+    margin: 2px;
+    margin-top: 2px;
+    height: 29px;
+    
+   
+}
+.box input{
+    width: 260px;
+margin: auto;
+border-bottom: 2px solid pink;
+background: none;
+
+margin-top: 1px;
+margin-left: 5px;
+/* margin-left: 185px; */
+border-radius: 4px;
+height: 21px;
+
+}
+.innerbox{
+/* border: 2px solid green; */
+width: 290px;
+margin-left: 156px;
+/* border-bottom: 2px solid pink; */
+
+}
+.mybtn{
+    /* font-family: 'Mukta', sans-serif; */
+    border-radius: 5px;
+padding: 4px 18px;
+margin-left: 263px;
+margin-top: 18px;
+    color: black;
+   
+    box-shadow:2px 1px 5px black;
+   font-size: 14px;
+    background-color: white;
+    filter:drop-shadow(4);
+    /* border: 1px solid green; */
+   
+}
+
+#info{
+    margin-top: 23px;
+}
+.mybtn:hover{
+    background-color: red;
+    color:whitesmoke;
+  font-weight: bold;
+    
+}
